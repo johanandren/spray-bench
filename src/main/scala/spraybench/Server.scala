@@ -12,7 +12,7 @@ import spray.routing.SimpleRoutingApp
 /**
  * Minimal http server with spray to compare throughput and latencies with Akka HTTP
  */
-object Server extends SimpleRoutingApp {
+object Server extends App with SimpleRoutingApp {
 
 
 
